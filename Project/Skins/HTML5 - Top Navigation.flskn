@@ -5,7 +5,8 @@
   ComponentType="MasterPage"
   TemplateName="Fluid"
   Comment="HTML5 Top Navigation skin"
-  EnableResponsiveOutput="True">
+  EnableResponsiveOutput="True"
+  AutoSyncTOC="true">
   <WebHelpOptions
     NavigationPanePosition="Right"
     TopMenuDepth="7" />

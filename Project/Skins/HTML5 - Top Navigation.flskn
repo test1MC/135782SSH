@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
-  Version="2"
+  Version="3"
   SkinType="WebHelp2"
   ComponentType="MasterPage"
   TemplateName="Fluid"
   Comment="HTML5 Top Navigation skin"
   EnableResponsiveOutput="True">
   <WebHelpOptions
-    NavigationPanePosition="Right" />
+    NavigationPanePosition="Right"
+    TopMenuDepth="7" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Menu" />
+    </Styles>
+  </Stylesheet>
+  <Strings />
 </CatapultSkin>
